@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Terms of Service — Exalted Bot</title>
 </head>
 <body>
     <h1>Exalted Discord Bot — Terms of Service</h1>

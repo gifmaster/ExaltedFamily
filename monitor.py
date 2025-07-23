@@ -1,3 +1,6 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
 import discord
 from discord.ext import commands
 
@@ -65,4 +68,4 @@ async def on_member_update(before, after):
                 #     await log_channel.send(f"🔄 Reverted: Re-added `{role.name}` to `{after.name}`.")
 
 # Run your bot
-bot.run("YOUR_BOT_TOKEN")
+bot.run(os.getenv("DISCORD_TOKEN"))
